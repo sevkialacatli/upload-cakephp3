@@ -1,0 +1,27 @@
+{
+	"name": "jeanfsantos/upload",
+	"description": "A simple plugin to handle file upload easily in CakePHP 3.0",
+	"type": "cakephp-plugin",
+	"keywords": ["cakephp", "upload"],
+	"homepage": "https://github.com/jeanfsantos/upload",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Jean F. Santos"
+		}
+	],
+	"extra": {
+			"installer-name": "Upload"
+	},
+	"require": {
+		"php": ">=5.4",
+		"cakephp/plugin-installer": "*",
+		"intervention/image": "~2.0",
+		"cakephp/cakephp": "~3.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"Upload\\": "src"
+		}
+	}
+}
